@@ -48,6 +48,7 @@ describe("Saucedemo", () => {
         CartPage.cartItem.should("have.length", 0);
     });
 
+    //In the lecture it was said to do 2 but since I already had these 3 item presets made I just tested them instead
     it("2.3) Checkout 3 items", () => {
         LoginPage.logIntoPage("standard_user", "secret_sauce");
         HomePage.onesieAddToCartButton.click();
