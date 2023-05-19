@@ -1,6 +1,6 @@
-import LoginPage from "../../pageObjects/Login.page";
-import HomePage from "../../pageObjects/Home.page";
-import CartPage from "../../pageObjects/Cart.page";
+import LoginPage from "../../pageObjects/saucedemo/Login.page";
+import HomePage from "../../pageObjects/saucedemo/Home.page";
+import CartPage from "../../pageObjects/saucedemo/Cart.page";
 
 describe("Saucedemo", () => {
     beforeEach(() => {
