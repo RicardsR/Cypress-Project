@@ -19,7 +19,7 @@ import './commands'
 // Alternatively you can use CommonJS syntax:
 // require('./commands')
 
-//For DemoQA page
-Cypress.on("uncaught:exception", (err, runnable) => {
-    return false;
-});
+//For DemoQA page only!
+// Cypress.on("uncaught:exception", (err, runnable) => {
+//     return false;
+// });
